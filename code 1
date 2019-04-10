@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<style>
+    
+  #b{
+      margin-right: 200px;
+      margin-left: 200px;
+      display: block;
+  }
+  img{
+      height: 2cm;
+      width: 2cm;
+  }
+  
+  
+ 
+  #f{
+      height: 400px;
+      width: 55%;
+      border-style: solid;
+      margin-top: 0.1cm;
+      background-color: dodgerblue;
+  }
+#g{
+    height: 200px;
+    width: 39.2%;
+    border-style: solid;
+    margin-left: 56%;
+    margin-top: -10.7cm;
+    border-color: blue;
+    background-color: darkblue;
+    
+}
+#h{
+    height: 187px;
+    width: 39.2%;
+    border-style: solid;
+    margin-left: 56%;
+    margin-top: 0.1cm;
+    border-color: blue;
+    background-color: magenta;
+    
+}
+#i{
+    border-style: solid;
+    width: 31%;
+    height: 50px;
+    display: inline-block;
+    margin-top: 0.2%;
+}
+#m{
+    display: inline;
+}
+
+#menu ul{
+     padding: 0;
+     margin: 0;
+     line-height: 30px;
+ }
+  #menu li{
+      list-style-type: none;
+      float: left;
+      position: relative;
+      background-color: grey;
+  }
+
+  #menu ul li{
+      color: black;
+      text-decoration: none;
+      height: 30px;
+      width: 217px;
+      display: block;
+      text-align: center;
+      border: 1px solid black;
+  }
+
+  #menu ul ul {
+      position: absolute;
+      top: 30px;
+      visibility: hidden;
+  }
+  #menu ul li:hover ul{
+      visibility: visible;
+  }
+
+@media screen and (max-width: 1280px)
+{
+
+
+    #b{
+      margin-right: 200px;
+      margin-left: 200px;
+      display: block;
+  }
+  img{
+      height: 4cm;
+      width: 4cm;
+  }
+  
+  
+ 
+  #f{
+      height: 400px;
+      width: 55%;
+      border-style: solid;
+      margin-top: 0.1cm;
+      background-color: dodgerblue;
+  }
+#g{
+    height: 200px;
+    width: 39.2%;
+    border-style: solid;
+    margin-left: 56%;
+    margin-top: -10.7cm;
+    border-color: blue;
+    background-color: darkblue;
+    
+}
+#h{
+    height: 187px;
+    width: 39.2%;
+    border-style: solid;
+    margin-left: 56%;
+    margin-top: 0.1cm;
+    border-color: blue;
+    background-color: magenta;
+    
+}
+#i{
+    border-style: solid;
+    width: 31%;
+    height: 50px;
+    display: inline-block;
+    margin-top: 0.2%;
+}
+#m{
+
+}
+  
+
+}
+
+
+    
+
+</style>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>initiation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    
+    <script src="main.js"></script>
+</head>
+<body>
+<div id="b">
+        <div >
+            <img src="logo.png">
+        </div>
+            <div id="menu">
+                <ul>
+                    <li>
+                        <a>MENU 1</a>
+                        <ul>
+                            <li><a>Sous Menu 1</a></li>
+                            <li><a>Sous Menu 2</a></li>
+                            <li><a>Sous Menu 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>MENU 2</a>
+                        <ul>
+                            <li><a>Sous Menu 1</a></li>
+                            <li><a >Sous Menu 2</a></li>
+                            <li><a>Sous Menu 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>MENU 3</a>
+                        <ul>
+                            <li><a></a>Sous Menu 1</a></li>
+                            <li><a>Sous Menu 2</a></li>
+                            <li><a>Sous Menu 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>MENU 4</a>
+                        <ul>
+                            <li><a>Sous Menu 1</a></li>
+                            <li><a>Sous Menu 2</a></li>
+                            <li><a>Sous Menu 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>  
+
+          <div id="m">
+              <div id="f"> </div>
+              <div id="g"></div> 
+              <div id="h"></div>
+          </div>
+            <div>
+                <div id="i"></div>
+                <div id="i"></div>
+                <div id="i"></div>
+            </div>
+ <div>   
+        
+</body>
+</html>
